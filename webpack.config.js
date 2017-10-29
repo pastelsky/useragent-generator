@@ -9,7 +9,7 @@ const config = {
     device: './constants/device.js',
   },
   target: 'node',
-  externals: [require('webpack-node-externals')(), //],
+  externals: [require('webpack-node-externals')()],
   output: {
     path: __dirname + '/lib',
     filename: '[name].js',

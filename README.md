@@ -1,4 +1,4 @@
-# UserAgent Generator
+# User Agent Generator
 [![Travis](https://img.shields.io/travis/pastelsky/useragent-generator.svg)]()
 [![npm](https://img.shields.io/npm/v/useragent-generator.svg)]()
 
