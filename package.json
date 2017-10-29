@@ -1,0 +1,33 @@
+{
+  "name": "useragent-generator",
+  "version": "1.0.0",
+  "description": "Generate user-agent strings for popular browsers",
+  "main": "lib/index.js",
+  "repository": "https://github.com/pastelsky/useragent-generator",
+  "author": "Shubham Kanodia <shubham.kanodia10@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "./index.js",
+    "./lib/index.js",
+    "./constants"
+  ],
+  "scripts": {
+    "test": "yarn run build && jest",
+    "build": "NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "normalize-version": "^1.0.5",
+    "semver": "^5.4.1",
+    "semver-closest": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1",
+    "ua-parser-js": "^0.7.17",
+    "useragent": "^2.2.1",
+    "webpack": "^3.8.1",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
