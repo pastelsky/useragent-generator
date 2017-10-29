@@ -3063,8 +3063,8 @@ sax@^1.2.1:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
 semver-closest@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/semver-closest/-/semver-closest-0.1.0.tgz#56f342eafb7c6a10e1106b1162982a50dd0dc3b4"
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/semver-closest/-/semver-closest-0.1.2.tgz#ede8d4d5fb04303bb0c334fff69d288cce7fc7db"
   dependencies:
     semver "^5.4.1"
 
