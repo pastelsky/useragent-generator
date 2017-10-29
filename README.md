@@ -36,7 +36,7 @@ const ua = require('useragent-generator')
 **Safari**
   - [`ua.safari(options)`](#uasafarioptions)
   - [`ua.safari.iOS(options)`](#uasafariiosoptions)
-  - [`ua.safari.webview(options)`](#uasafariwebviewoptions)
+  - [`ua.safari.iOSWebview(options)`](#uasafariwebviewoptions)
 
 **Internet Explorer**
   - [`ua.ie(options)`](#uaieoptions)
@@ -210,13 +210,13 @@ ua.safari.iOS({ iOSVersion: '10.0.1', safariVersion: '10.3.0', device: 'iPad' })
 | `options.safariVersion` | string | (equal to `iOSversion`) |
 | `options.device` | string | `iPhone` |
 
-### `ua.safari.webview(options)`
+### `ua.safari.iOSWebview(options)`
 
 ##### Examples
 ```js
-ua.safari.iOS(10) // iOS version
-ua.safari.iOS('10.0.1') // iOS version
-ua.safari.iOS({ iOSVersion: '10.0.1', safariVersion: '10.3.0', device: 'iPad' })
+ua.safari.iOSWebview(10) // iOS version
+ua.safari.iOSWebview('10.0.1') // iOS version
+ua.safari.iOSWebview({ iOSVersion: '10.0.1', safariVersion: '10.3.0', device: 'iPad' })
 ```
 
 | Param | Type | Default Value |
@@ -257,14 +257,14 @@ ua.ie({ version: '9.0.1', os: 'Lumia 625' })
 
 ## Microsoft Edge
 
+### `ua.edge(options)`
+
 ##### Examples
 ```js
 ua.edge(12) 
 ua.edge('12.0.1') 
 ua.edge({ version: '12.0.1', chromeVersion: '62.0.1', os: 'Windows NT 6.3' })
 ```
-
-### `ua.edge(options)`
 
 | Param | Type | Default Value |
 | --- | --- | --- |
