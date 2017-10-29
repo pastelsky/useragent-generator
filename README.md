@@ -17,7 +17,7 @@ const ua = require('useragent-generator')
 // ...
 ```
 
-### Table of Contents** 
+### Table of Contents
 
 - **Chrome**
   - [`ua.chrome(options)`](#uachromeoptions)
