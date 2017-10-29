@@ -1,6 +1,6 @@
 {
   "name": "useragent-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate user-agent strings for popular browsers",
   "main": "lib/index.js",
   "repository": "https://github.com/pastelsky/useragent-generator",
