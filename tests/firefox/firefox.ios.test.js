@@ -18,7 +18,6 @@ describe('firefox iOS user agent generator', () => {
   it('accepts simple string input', () => {
     const ua = makeUA.firefox.iOS('10.3.0')
     const agent = parser.setUA(ua).getResult()
-    console.log(ua)
 
     expect(agent.browser).toMatchObject({ name: 'Firefox', version: '1.0' })
     expect(agent.os).toMatchObject({ name: 'iOS', version: '10.3.0' })

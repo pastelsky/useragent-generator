@@ -2,8 +2,6 @@ import makeUA from '../../lib/index'
 import OS from '../../constants/os'
 import useragent from 'useragent'
 
-console.log('makeua', makeUA)
-
 describe('edge user agent generator', () => {
   it('accepts simple number input', () => {
     const ua = makeUA.edge(12)
