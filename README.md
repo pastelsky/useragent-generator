@@ -26,6 +26,9 @@ const ua = require('useragent-generator')
   - [`ua.chrome.iOS(options)`](#uachromeiosoptions)
   - [`ua.chrome.androidWebview(options)`](#uachromeandroidwebviewoptions)
   - [`ua.chrome.chromecast(options)`](#uachromechromecastoptions)
+  
+**Chromium**
+  - [`ua.chromium(options)`](#uachromiumoptions)
 
 **Firefox**
   - [`ua.firefox(options)`](#firefox)
@@ -128,6 +131,11 @@ ua.chrome.chromecast({ version: '62.1.0' })
 | Param | Type | Default Value |
 | --- | --- | --- |
 | `options.version` | string | — |
+
+## Chromium
+### `ua.chromium(options)`
+
+Same as `ua.chrome`
 
 ## Firefox
 

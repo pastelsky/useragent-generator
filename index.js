@@ -131,6 +131,10 @@ chrome.iOS = (opt) => {
   return `Mozilla/5.0 (${device}; CPU iPhone OS ${iOSVersion.replace(/\./g, '_')} like Mac OS X) AppleWebKit/${webkitVersion} (KHTML, like Gecko) CriOS/${chromeVersion} Mobile/14E5239e Safari/602.1`
 }
 
+function chromium(opt) {
+  return chrome(opt).replace(/Chrome/g, 'Chromium')
+}
+
 /***************
  *   Firefox   *
  /*************/
@@ -310,6 +314,7 @@ function yahooBot() {
 
 module.exports =  {
   chrome,
+  chromium,
   firefox,
   safari,
   ie,
