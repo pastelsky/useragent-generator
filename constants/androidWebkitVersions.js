@@ -1,4 +1,4 @@
-// @see https://decadecity.net/blog/2013/11/21/android-browser-versions#version-data', 
+// @see https://decadecity.net/blog/2013/11/21/android-browser-versions#version-data'
 
 module.exports = {
   '1.5': '528.5',
@@ -18,4 +18,6 @@ module.exports = {
   '4.2': '534.30',
   '4.3': '534.30',
   '4.4': '537.36',
+  '5.0': '537.36 (Chrome 37)',
+  '5.1': '?'
 }

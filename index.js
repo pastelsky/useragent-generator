@@ -10,7 +10,14 @@ const androidWebkitVersions = require('./constants/androidWebkitVersions')
 
 const ANDROID_FLAVOURS = {
   KITKAT: '4.4.0',
-  MARSHMELLOW: '6.0.0',
+  LOLLIPOP: '5.0',
+  MARSHMALLOW: '6.0.0',
+  NOUGAT: '7.0',
+  OREO: '8.0',
+  PIE: '9.0',
+  ANDROID_10: 'Android 10',
+  ANDROID_11: 'Android 11',
+  ANDROID_12: 'Android 12',
 }
 
 const windowsPhoneIEVersionMap = {
@@ -33,7 +40,7 @@ function closestSemverValue(semverString, semverStringMap) {
 }
 
 const Defaults = {
-  ANDROID_VERSION: '7.0.0',
+  ANDROID_VERSION: 'Android 11',
   ANDROID_BUILD_VERSION: 'Unknown',
   ANDROID_PHONE: DEVICE.PIXEL,
   ANDROID_TABLET: DEVICE.PIXEL_C,
@@ -48,7 +55,7 @@ const Defaults = {
   WINDOW_PHONE: DEVICE.LUMIA_630,
   WINDOWS_BUILD_VERSION: '10122',
   EDGE_CHROME_VERSION: '52.0.0.0',
-  MAC_OS: OS.MAC_OSX_10_12,
+  MAC_OS: OS.MAC_OSX_BIG_SUR,
 }
 
 /********************
@@ -103,7 +110,7 @@ chrome.androidWebview = (opt) => {
     return `Mozilla/5.0 (Linux; U; Android ${androidVersion}; ${device} Build/${buildVersion};) AppleWebKit/${webkitVersion} (KHTML, like Gecko) Version/4.0 Safari/${webkitVersion}`
   } else if (
     semver.gte(androidVersion, ANDROID_FLAVOURS.KITKAT) &&
-    semver.lt(androidVersion, ANDROID_FLAVOURS.MARSHMELLOW)
+    semver.lt(androidVersion, ANDROID_FLAVOURS.MARSHMALLOW)
   ) {
     return `Mozilla/5.0 (Linux; Android ${androidVersion}; ${device} Build/${buildVersion};) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/${chromeVersion} Mobile Safari/537.36`
   } else {

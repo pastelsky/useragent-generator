@@ -1,5 +1,5 @@
+// @see https://developers.whatismybrowser.com/useragents/explore/software_name/safari/
 
-// @see https://en.wikipedia.org/wiki/Safari_version_history
 module.exports = {
   '1.0': '85',
   '1.0.3': '85.8.5',
@@ -86,4 +86,8 @@ module.exports = {
   '10.1.1': '603.2.4',
   '10.1.2': '603.3.8',
   '11.0.0': '604.1.28',
+  '12.1': '605.1.15',
+  '13': '605.1.15',
+  '13.1': '605.1.15',
+  '14': '605.1.15',
 }
