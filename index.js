@@ -15,9 +15,9 @@ const ANDROID_FLAVOURS = {
   NOUGAT: '7.0',
   OREO: '8.0',
   PIE: '9.0',
-  ANDROID_10: 'Android 10',
-  ANDROID_11: 'Android 11',
-  ANDROID_12: 'Android 12',
+  ANDROID_10: '10.0',
+  ANDROID_11: '11.0',
+  ANDROID_12: '12.0',
 }
 
 const windowsPhoneIEVersionMap = {
