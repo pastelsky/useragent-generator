@@ -40,7 +40,7 @@ function closestSemverValue(semverString, semverStringMap) {
 }
 
 const Defaults = {
-  ANDROID_VERSION: 'Android 11',
+  ANDROID_VERSION: '11.0.0',
   ANDROID_BUILD_VERSION: 'Unknown',
   ANDROID_PHONE: DEVICE.PIXEL,
   ANDROID_TABLET: DEVICE.PIXEL_C,
